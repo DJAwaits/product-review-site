@@ -21,5 +21,5 @@ mixin reviewForm(review, saveUrl, cancelUrl)
                 textarea(id="description" name="description" rows=10 cols=80) #{review.description}
 
             div.form-buttons
-                a.button(href=cancelUrl) <Cancel></Cancel>
-                button.button(type='submit') Submit
+                a.button(href=cancelUrl) Cancel
+                button.button.primary(type='submit') Submit
